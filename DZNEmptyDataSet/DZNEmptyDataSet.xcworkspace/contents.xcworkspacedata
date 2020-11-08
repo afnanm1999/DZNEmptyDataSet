@@ -11,6 +11,9 @@
       location = "container:"
       name = "Config">
       <FileRef
+         location = "group:../Package.swift">
+      </FileRef>
+      <FileRef
          location = "group:../DZNEmptyDataSet.podspec">
       </FileRef>
       <FileRef
